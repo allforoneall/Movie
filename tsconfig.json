@@ -4,8 +4,12 @@
     "module": "commonjs",
     "strict": true,
     "esModuleInterop": true,
-    "outDir": "./dist"
+    "outDir": "./dist",   // Output directory for compiled JS files
+    "rootDir": "."        // Set root directory to the project root
   },
-  "include": ["src/**/*.ts"],
+  "include": [
+    "index.ts",          // Include root index.ts
+    "src/**/*.ts"        // Include all .ts files in src folder
+  ],
   "exclude": ["node_modules"]
 }
