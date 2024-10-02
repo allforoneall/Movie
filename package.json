@@ -4,7 +4,7 @@
     "description": "Backend for the Movie Review App built with Node.js, Express, and MongoDB using TypeScript",
     "main": "dist/index.js",
     "scripts": {
-        "start": "node dist/app.js",
+        "start": "node dist/index.js",
         "dev": "nodemon index.ts",
         "build": "tsc"
     },
